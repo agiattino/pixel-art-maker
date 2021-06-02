@@ -17,7 +17,7 @@ function handlePixelClick(event) {
     }
 }
 
-for (let index = 0; index < 4; index++) {
+for (let index = 0; index < 2013; index++) {
     const $pixel = document.createElement('DIV');
     $pixel.className = 'pixel';
     $pixel.addEventListener('click',handlePixelClick);
@@ -28,7 +28,8 @@ const colors = [
     'red',
     'yellow',
     'green',
-    'blue'
+    'blue' ,
+    'violet'
 ];
 function handleColorSelect(event){
     const $paletteItem = event.target;
